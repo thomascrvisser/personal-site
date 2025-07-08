@@ -14,8 +14,8 @@ export default function Home() {
           LOVEVERY
         </a>{" "}
         living in{" "}
-        <a href="https://www.google.com/search?q=SAN+DIEGO" target="_blank">
-          SAN DIEGO
+        <a href="https://www.google.com/search?q=PORTLAND" target="_blank">
+          PORTLAND
         </a>
         . feel free to{" "}
         <a href="mailto:thomascrvisser@gmail.com" target="_blank">
