@@ -20,19 +20,19 @@ export default function Home() {
         </a>
         . he has worked at companies like{" "}
         <a
+          href="https://cyberresilience.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          RESILIENCE
+        </a>{" "}
+        and{" "}
+        <a
           href="https://www.lovevery.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           LOVEVERY
-        </a>{" "}
-        and{" "}
-        <a
-          href="https://academy.guildmortgage.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ACADEMY MORTGAGE
         </a>
         . feel free to{" "}
         <a
