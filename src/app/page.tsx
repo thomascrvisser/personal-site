@@ -1,12 +1,16 @@
 export default function Home() {
   return (
-    <main className="grid place-items-center h-screen w-screen">
-      <p className="font-serif max-w-xs text-justify">
+    <main className="grid place-items-center h-screen w-screen p-4">
+      {/* text-justify: stretches the words to both edges
+        break-all: breaks words at any character to prevent large white gaps
+      */}
+      <p className="font-serif max-w-xs leading-relaxed">
         thomas visser is a{" "}
         <a
           href="https://www.linkedin.com/in/thomas-visser-79981a182/"
           target="_blank"
           rel="noopener noreferrer"
+          className="underline"
         >
           SOFTWARE ENGINEER
         </a>{" "}
@@ -15,6 +19,7 @@ export default function Home() {
           href="https://www.google.com/search?q=PORTLAND"
           target="_blank"
           rel="noopener noreferrer"
+          className="underline"
         >
           PORTLAND
         </a>
@@ -23,6 +28,7 @@ export default function Home() {
           href="https://cyberresilience.com/"
           target="_blank"
           rel="noopener noreferrer"
+          className="underline"
         >
           RESILIENCE
         </a>{" "}
@@ -31,6 +37,7 @@ export default function Home() {
           href="https://www.lovevery.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="underline"
         >
           LOVEVERY
         </a>
@@ -39,6 +46,7 @@ export default function Home() {
           href="mailto:thomascrvisser@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="underline"
         >
           REACH OUT
         </a>
